@@ -10,7 +10,6 @@ window.addEventListener('load', (event) => {
 
 //----- Play the video when the user click on the play button -----//
 const vidContainer = document.querySelector('.vid-container');
-console.log(vidContainer);
 
 const playVideo = function (e, opacity) {
 	if (e.target.classList.contains('play-button')) {
