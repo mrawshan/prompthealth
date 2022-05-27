@@ -1,0 +1,424 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6fcff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+/****** Section showreel ******/
+.showreel {
+	/* For animation */
+	transition: transform 1s, opacity 1s;
+}
+
+/* Logo */
+.logo {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.showreel h2 {
+	color: #174b71;
+	font-weight: 800;
+}
+
+.showreel p {
+	color: #4f7795;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.promt-trademark a {
+	color: #3c97d3;
+	text-decoration: none;
+}
+
+/* Intro video */
+.vid-wrapper {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.vid-container {
+	position: relative;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 28px 32px -14px rgba(23, 75, 113, 0.28);
+	-webkit-box-shadow: 0px 28px 32px -14px rgba(23, 75, 113, 0.28);
+	-moz-box-shadow: 0px 28px 32px -14px rgba(23, 75, 113, 0.28);
+	border-radius: 20px;
+}
+
+.vid-container img {
+	width: 100%;
+	position: absolute;
+	transition: opacity 0.4s;
+}
+
+.vid-container video {
+	width: 100%;
+	margin-bottom: -7px;
+	border-radius: 20px;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255, 0.8);
+	width: 65px;
+	transition: opacity 0.4s;
+}
+
+.play-button {
+	font-size: 40px;
+	color: #3c97d3;
+	padding-left: 8px;
+}
+
+.play-button:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+/****** Section Intro ******/
+.intro .container {
+	overflow-y: hidden;
+}
+
+.intro .row {
+	/* For animation */
+	transition: transform 1s, opacity 1s;
+}
+
+.intro img {
+	width: 100%;
+}
+
+.intro .text-wrapper {
+	position: relative;
+}
+
+.intro .text-box {
+	width: 360px;
+	text-align: start;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+
+.intro .text-box h6 {
+	color: #79aa41;
+	font-weight: 600;
+}
+
+.intro .text-box h3 {
+	color: #174b71;
+	font-weight: 700;
+}
+
+.intro .text-box p {
+	color: #4f7795;
+}
+
+/****** Section Get the app ******/
+.get-app {
+	background-color: #174b71;
+	color: white;
+	padding: 70px 5px 70px 5px;
+	width: 100vw;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.get-app h2 {
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+.get-app p {
+	font-weight: 200;
+	margin-bottom: 40px;
+}
+
+.get-app .container {
+	max-width: 500px;
+}
+
+.get-app img {
+	width: 100%;
+}
+
+.get-app .container-card {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+
+	/* For animation */
+	transition: transform 1s, opacity 1s;
+}
+
+.get-app .card {
+	background: rgba(27, 30, 33, 0.3);
+	text-align: start;
+	margin-top: 70px;
+	padding: 10px;
+	border-radius: 10px;
+	height: 89%;
+}
+
+.get-app .card img {
+	width: 100%;
+}
+
+/****** Section contact us ******/
+.contact-us {
+	width: 100vw;
+	background-color: #e3f1fb;
+	text-align: start;
+	padding: 20px;
+}
+
+.contact-us .row {
+	/* For animation */
+	transition: transform 1s, opacity 1s;
+}
+
+.contact-us .text-box-col {
+	position: relative;
+}
+
+.contact-us .text-box {
+	width: fit-content;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+
+.contact-us h2 {
+	color: #174b71;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+.contact-us img {
+	width: 100%;
+}
+
+.contact-us p {
+	color: #4f7795;
+}
+
+.form {
+	font-size: 0px;
+	margin-top: 50px;
+}
+
+.contact-us .form .form-input {
+	font-size: 15px;
+	border: none;
+	outline: none;
+	line-height: 47px;
+	width: 252px;
+	border-radius: 10px 0px 0px 10px;
+	padding-left: 15px;
+	background: rgba(79, 119, 149, 0.2);
+}
+
+::placeholder {
+	color: #4f7795;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #4f7795;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #4f7795;
+}
+
+.contact-us .form button {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	line-height: 47px;
+	width: 110px;
+	border-radius: 0px 10px 10px 0px;
+	background: #3c97d3;
+}
+
+/****** Section footer ******/
+footer {
+	background-color: #d1e8f6;
+	overflow-x: hidden;
+}
+
+footer p {
+	margin-top: 0.9rem;
+	margin-bottom: 0.9rem;
+	color: #4f7795;
+}
+
+/****** Common css ******/
+.container {
+	max-width: 1000px;
+	margin-bottom: auto;
+	margin-top: 0;
+	overflow: auto;
+	padding: 10px 40px;
+}
+
+.row-hidden {
+	opacity: 0;
+	transform: translateY(8rem);
+}
+
+.lazy-img {
+	filter: blur(20px);
+}
+
+/****** Media Queries ******/
+@media screen and (max-width: 885px) {
+	.contact-us .text-box {
+		position: unset;
+		top: unset;
+		right: unset;
+		transform: unset;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.get-app {
+		padding-bottom: 40px;
+	}
+
+	.container-card .crd {
+		height: 100%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.intro .text-box {
+		width: unset;
+		text-align: center;
+		position: unset;
+		top: unset;
+		right: unset;
+		transform: unset;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 885px) {
+	.contact-us .form {
+		margin-top: 30px;
+	}
+
+	.contact-us .form .form-input {
+		line-height: 40px;
+		width: 200px;
+		padding-left: 10px;
+	}
+
+	.contact-us .form button {
+		line-height: 40px;
+		width: 110px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.showreel p {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	.container {
+		padding: 10px 10px;
+		overflow-x: hidden;
+	}
+
+	.get-app {
+		padding-top: 30px;
+	}
+
+	.get-app p {
+		padding-left: 4px;
+		padding-right: 4px;
+		margin-bottom: 20px;
+	}
+
+	.get-app .container .row {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px 30px 15px 30px;
+	}
+
+	.get-app .google-store {
+		margin-bottom: 10px;
+	}
+
+	.container-card .crd-1 {
+		margin: auto;
+		height: 100%;
+	}
+
+	.contact-us {
+		padding: 0px;
+		padding-top: 20px;
+		overflow-x: hidden;
+	}
+
+	.contact-us .text-box {
+		width: 100vw;
+		position: unset;
+		top: unset;
+		right: unset;
+		transform: unset;
+	}
+
+	.contact-us .text-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.contact-us .form {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.contact-us .form .form-input {
+		width: 160px;
+	}
+
+	.contact-us .form button {
+		width: 110px;
+	}
+
+	footer p {
+		margin: 0px;
+	}
+}
