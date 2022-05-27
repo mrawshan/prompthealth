@@ -306,6 +306,14 @@ footer p {
 		right: unset;
 		transform: unset;
 	}
+
+	p {
+		font-weight: 500;
+	}
+
+	.get-app p {
+		font-weight: 400;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -358,6 +366,11 @@ footer p {
 		padding-right: 6px;
 	}
 
+	.play-button {
+		font-size: 30px;
+		width: 50px;
+	}
+
 	.container {
 		padding: 10px 10px;
 		overflow-x: hidden;
@@ -368,8 +381,6 @@ footer p {
 	}
 
 	.get-app p {
-		padding-left: 4px;
-		padding-right: 4px;
 		margin-bottom: 20px;
 	}
 
