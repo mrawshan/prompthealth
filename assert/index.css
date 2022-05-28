@@ -193,6 +193,7 @@ body {
 	background-color: #e3f1fb;
 	text-align: start;
 	padding: 20px;
+	overflow: hidden;
 }
 
 .contact-us .row {
