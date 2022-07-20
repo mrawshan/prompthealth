@@ -299,8 +299,8 @@ footer p {
 	filter: blur(20px);
 }
 
-/****** Media Queries ******/
-@media screen and (max-width: 885px) {
+/****** Media Queries (Based on the device width) ******/
+/* @media screen and (max-width: 885px) {
 	.contact-us .text-box {
 		position: unset;
 		top: unset;
@@ -436,5 +436,48 @@ footer p {
 
 	footer p {
 		margin: 0px;
+	}
+} */
+
+/****** Media Queries (Based on the browser width) ******/
+@media screen and (max-width: 991px) {
+	.container-card .card {
+		margin: 0;
+		height: 100%;
+	}
+
+	.get-app .container {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.intro .text-box {
+		width: unset;
+		text-align: center;
+		position: unset;
+		top: unset;
+		right: unset;
+		transform: unset;
+	}
+
+	.contact-us .text-box {
+		position: unset;
+		top: unset;
+		right: unset;
+		transform: unset;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 402px) {
+	.contact-us .form {
+		margin-top: 0%;
+	}
+
+	.contact-us .form .form-input {
+		width: 155px;
 	}
 }
